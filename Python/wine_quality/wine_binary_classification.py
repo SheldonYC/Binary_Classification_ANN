@@ -59,7 +59,6 @@ def training(wine_training, wine_y, W1, W2, b1, b2, costs, a, m_x):
 
 def test(wine_test, w_y, W1, W2, b1, b2):
     A1, prediction = forward(wine_test, W1, W2, b1, b2)
-    print(prediction)
     return np.where(prediction<0.58, 0, 1)
 
 # plot cost function progress
