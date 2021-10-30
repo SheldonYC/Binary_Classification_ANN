@@ -1,5 +1,7 @@
 # Binary_Classification_ANN
 ## Description
+![Diagram of ANN achitecture](Python/wine_quality/ANN.png "ANN")
+
 A Artificial Neural Network (ANN) project written in Python
 ### Library used:
 - Numpu (randomisation, aggregation)
@@ -11,8 +13,8 @@ A Artificial Neural Network (ANN) project written in Python
 - Linear regression form (Y = WX +b)
 - hyperparameter tuning (mainly learning rate & number of neurons)
 ## Source of datasets:
-wine quality dataset from kaggle
+[Wine quality dataset from kaggle](https://www.kaggle.com/nareshbhat/wine-quality-binary-classification) by Naresh Bhat
 
 ## Results
-[photo of result of cost function descend]
-[Accuracy]
+![Plot of cost function](Python/wine_quality/CostFunction.png "Cost Function")
+### Accuracy: *66.8%*
